@@ -31,12 +31,7 @@ const Footer2 = () => {
             >
               <LinksCol heading="Menu" links={menu} />
             </div>
-            {/* <div
-              className="col-xl-3 col-lg-4 col-md-6 ps-lg-5  wow fadeInUp"
-              data-wow-delay=".3s"
-            >
-              <LinksCol heading="Legal" links={legalLink} />
-            </div> */}
+         
             <div
               className="col-xl-4 col-lg-4 col-md-6 ps-lg-5  wow fadeInUp"
               data-wow-delay=".3s"
@@ -57,18 +52,7 @@ const Footer2 = () => {
                         </h6>
                       </div>
                     </div>
-                    {/* <div className="contact-items">
-                      <div className="icon color-2">
-                        <i className="fal fa-envelope" />
-                      </div>
-                      <div className="content text-deco">
-                        <h6>
-                          <a href="mailto:jenitraders@gmail.com" className="link">
-                            jenitraders@gmail.com
-                          </a>
-                        </h6>
-                      </div>
-                    </div> */}
+                   
                     <div className="contact-items">
                       <div className="icon color-3">
                         <i className="fal fa-map-marker-alt" />
@@ -78,7 +62,8 @@ const Footer2 = () => {
                           Pl No.08,
                           Door No.17,<br />
                           Thiruvalluvar Street,
-                          Ullagaram, 600091.
+                          Ullagaram, Chennai - 600091,
+                          Tamil Nadu.
                         </h6>
                       </div>
                     </div>
@@ -91,7 +76,7 @@ const Footer2 = () => {
       </div>
       <div className="footer-bottom-3">
         <div className="container">
-          <div className="footer-bottom-wrapper d-flex align-items-center justify-content-between">
+          <div className="footer-bottom-wrapper d-flex align-items-center justify-content-lg-between justify-content-center">
             <p className="wow fadeInLeft" data-wow-delay=".3s">
               © Copyright 2026 <Link href="/">Jeni Traders</Link>. All Rights
               Reserved.
@@ -107,303 +92,7 @@ const Footer2 = () => {
     </footer>
   );
 };
-// const Footer3 = () => {
-//   return (
-//     <footer className="footer-section footer-bg-color section-bg">
-//       <div className="container">
-//         <div className="footer-widgets-wrapper">
-//           <div className="row">
-//             <div
-//               className="col-md-6 col-xl-4 col-12 wow fadeInUp"
-//               data-wow-delay=".3s"
-//             >
-//               <div className="single-footer-widget">
-//                 <div className="widget-head">
-//                   <h4 className="text-white">Get In Touch</h4>
-//                 </div>
-//                 <div className="footer-content">
-//                   <div className="contact-info-area">
-//                     <div className="contact-items">
-//                       <div className="icon">
-//                         <i className="fal fa-phone" />
-//                       </div>
-//                       <div className="content">
-//                         <h6>
-//                           <a href="tel:00012345688">+000 (123) 456 88</a>
-//                           <a href="tel:00012345688">+000 (123) 456 88</a>
-//                         </h6>
-//                       </div>
-//                     </div>
-//                     <div className="contact-items">
-//                       <div className="icon color-2">
-//                         <i className="fal fa-envelope" />
-//                       </div>
-//                       <div className="content">
-//                         <h6>
-//                           <a href="mailto:info@example.com" className="link">
-//                             info@example.com
-//                           </a>
-//                           <a href="mailto:jobs@example.com" className="link">
-//                             jobs@example.com
-//                           </a>
-//                         </h6>
-//                       </div>
-//                     </div>
-//                     <div className="contact-items">
-//                       <div className="icon color-3">
-//                         <i className="fal fa-map-marker-alt" />
-//                       </div>
-//                       <div className="content">
-//                         <h6>
-//                           55 Main Street, 2nd block <br />
-//                           Malborne, Australia
-//                         </h6>
-//                       </div>
-//                     </div>
-//                   </div>
-//                   <div className="social-icon d-flex align-items-center">
-//                     <a href="#">
-//                       <i className="fab fa-facebook-f" />
-//                     </a>
-//                     <a href="#">
-//                       <i className="fab fa-twitter" />
-//                     </a>
-//                     <a href="#">
-//                       <i className="fab fa-vimeo-v" />
-//                     </a>
-//                     <a href="#">
-//                       <i className="fab fa-pinterest-p" />
-//                     </a>
-//                   </div>
-//                 </div>
-//               </div>
-//             </div>
-//             <div
-//               className="col-md-6 col-xl-4 offset-xl-1 col-12 wow fadeInUp"
-//               data-wow-delay=".5s"
-//             >
-//               <LinksCol
-//                 heading="About Us"
-//                 links={aboutLink}
-//                 links2={specialLink}
-//                 layout={3}
-//               />
-//             </div>
-//             <div
-//               className="col-md-6 col-xl-3 col-12 wow fadeInUp"
-//               data-wow-delay=".7s"
-//             >
-//               <LinksCol
-//                 heading="Popular Causes"
-//                 links={popularlLink}
-//                 layout={2}
-//               />
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//       <div className="footer-bottom">
-//         <div className="container">
-//           <div className="footer-wrapper">
-//             <p className="wow fadeInUp text-center" data-wow-delay=".3s">
-//               © <Link href="/">Danbox</Link> Charity Trust - 2024. All rights
-//               reserved.
-//             </p>
-//           </div>
-//         </div>
-//       </div>
-//     </footer>
-//   );
-// };
-// const Footer4 = () => {
-//   return (
-//     <Fragment>
-//       <div className="footer-contact-section">
-//         <div className="container">
-//           <div className="footer-contact-wrapper">
-//             <div className="row g-4 justify-content-between">
-//               <div
-//                 className="col-xl-3 col-lg-3 wow fadeInUp"
-//                 data-wow-delay=".3s"
-//               >
-//                 <div className="footer-logo">
-//                   <Link href="/">
-//                     <Image
-//                       width={0}
-//                       height={0}
-//                       sizes="100vw"
-//                       style={{ width: "178px", height: "54px" }}
-//                       src="/assets/img/logo/white-logo.png"
-//                       alt="img"
-//                     />
-//                   </Link>
-//                 </div>
-//               </div>
-//               <div
-//                 className="col-xl-5 col-lg-4 wow fadeInUp"
-//                 data-wow-delay=".5s"
-//               >
-//                 <div className="contact-us-items">
-//                   <div className="single-info">
-//                     <div className="icon">
-//                       {" "}
-//                       <i className="fal fa-envelope" />{" "}
-//                     </div>
-//                     <div className="contact">
-//                       <h4>Email Address</h4>
-//                       <p>
-//                         <a href="mailto:info@example.com">info@example.com</a>
-//                       </p>
-//                     </div>
-//                   </div>
-//                   <div className="single-info">
-//                     <div className="icon">
-//                       {" "}
-//                       <i className="fal fa-phone" />
-//                     </div>
-//                     <div className="contact">
-//                       <h4>Phone Number</h4>
-//                       <p>
-//                         <a href="tel:98098709809">980-987-098-09</a>
-//                       </p>
-//                     </div>
-//                   </div>
-//                 </div>
-//               </div>
-//               <div
-//                 className="col-xl-3 col-lg-4 wow fadeInUp"
-//                 data-wow-delay=".7s"
-//               >
-//                 <div className="social-icon d-flex align-items-center">
-//                   <a href="#">
-//                     <i className="fab fa-facebook-f" />
-//                   </a>
-//                   <a href="#">
-//                     <i className="fab fa-twitter" />
-//                   </a>
-//                   <a href="#">
-//                     <i className="fab fa-vimeo-v" />
-//                   </a>
-//                   <a href="#">
-//                     <i className="fab fa-pinterest-p" />
-//                   </a>
-//                 </div>
-//               </div>
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//       <footer className="footer-section section-bg">
-//         <div className="container">
-//           <div className="footer-widgets-wrapper">
-//             <div className="row justify-content-between">
-//               <div
-//                 className="col-md-6 col-xl-4 col-12 wow fadeInUp"
-//                 data-wow-delay=".3s"
-//               >
-//                 <LinksCol
-//                   heading="About Us"
-//                   links={aboutLink}
-//                   links2={specialLink}
-//                   layout={3}
-//                 />
-//               </div>
-//               <div
-//                 className="col-md-6 col-xl-3 col-12 wow fadeInUp"
-//                 data-wow-delay=".5s"
-//               >
-//                 <LinksCol
-//                   heading="Popular Causes"
-//                   links={popularlLink}
-//                   layout={2}
-//                 />
-//               </div>
-//               <div
-//                 className="col-xl-4 col-md-6 col-12 wow fadeInUp"
-//                 data-wow-delay=".5s"
-//               >
-//                 <div className="single-footer-widget">
-//                   <div className="widget-head">
-//                     <h4>News Feeds</h4>
-//                   </div>
-//                   <div className="popularspost-area">
-//                     <div className="single-post-items">
-//                       <div
-//                         className="post-img bg-cover"
-//                         style={{
-//                           backgroundImage: 'url("assets/img/post1.jpg")',
-//                         }}
-//                       />
-//                       <div className="post-content">
-//                         <span>
-//                           <i className="fal fa-calendar-alt" />
-//                           24th November 2024
-//                         </span>
-//                         <h5>
-//                           <Link href="/news-details">
-//                             Everyone Deserves 100% Clean Water
-//                           </Link>
-//                         </h5>
-//                       </div>
-//                     </div>
-//                     <div className="single-post-items">
-//                       <div
-//                         className="post-img bg-cover"
-//                         style={{
-//                           backgroundImage: 'url("assets/img/post2.jpg")',
-//                         }}
-//                       />
-//                       <div className="post-content">
-//                         <span>
-//                           <i className="fal fa-calendar-alt" />
-//                           24th November 2024
-//                         </span>
-//                         <h5>
-//                           <Link href="/news-details">
-//                             Lorem ipsum dolor sit amet, nsectetur
-//                           </Link>
-//                         </h5>
-//                       </div>
-//                     </div>
-//                     <div className="single-post-items">
-//                       <div
-//                         className="post-img bg-cover"
-//                         style={{
-//                           backgroundImage: 'url("assets/img/post1.jpg")',
-//                         }}
-//                       />
-//                       <div className="post-content">
-//                         <span>
-//                           <i className="fal fa-calendar-alt" />
-//                           24th November 2024
-//                         </span>
-//                         <h5>
-//                           <Link href="/news-details">
-//                             A true story about great two sisters
-//                           </Link>
-//                         </h5>
-//                       </div>
-//                     </div>
-//                   </div>
-//                 </div>
-//               </div>
-//             </div>
-//           </div>
-//         </div>
-//         <div className="footer-bottom">
-//           <div className="container">
-//             <div className="footer-wrapper">
-//               <p className="wow fadeInUp text-center" data-wow-delay=".3s">
-//                 © <Link href="/">Danbox</Link> Charity Trust - 2024. All rights
-//                 reserved.
-//               </p>
-//             </div>
-//           </div>
-//         </div>
-//       </footer>
-//     </Fragment>
-//   );
-// };
+
 const FooterLogoContainer = () => (
   <div
     className="col-xl-4 col-lg-4 col-md-6  wow fadeInUp"
@@ -424,11 +113,7 @@ const FooterLogoContainer = () => (
         <p>
           At <b> Jeni Traders, </b>we collect all types of metal scrap and provide reliable pickup, transparent pricing, and eco-friendly recycling services you can trust.
         </p>
-        {/* <div className="social-icon d-flex align-items-center">
-          <a href="#">
-            <i className="fab fa-facebook-f" />
-          </a>
-        </div> */}
+       
       </div>
     </div>
   </div>
