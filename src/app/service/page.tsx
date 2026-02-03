@@ -10,9 +10,7 @@ const CausesPage = () => {
   return (
     <DanboxLayout>
       <PageBanner pageName="Our Services" />
-       {/* <CausesTab /> */}
        <ServiceContent/>
-      {/* <Cta1 /> */}
     </DanboxLayout>
   );
 };

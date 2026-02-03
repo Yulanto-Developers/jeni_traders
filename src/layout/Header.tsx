@@ -6,7 +6,7 @@ import { Fragment, useState } from "react";
 
 const Header = ({ header }: { header?: number }) => {
   useStickyHeader();
-  // const headers = { 1: Header1, 2: Header2, 3: Header3, 4: Header4 };
+
   const headers = { 3: Header3 };
   const HeaderComponent = headers[header as keyof typeof headers] || Header3;
   const [toggleMobileMenu, setToggleMobileMenu] = useState(false);
@@ -24,7 +24,7 @@ const Header = ({ header }: { header?: number }) => {
 export default Header;
 
 const Logo = ({
-  logo = "logo.png",
+  logo = "logo-1.png",
   className = "header-logo",
 }: {
   logo?: string;
@@ -66,136 +66,26 @@ const ContactList = ({
   </ul>
 );
 
-// const Header1 = ({ open }: { open: () => void }) => (
-//   <header id="header-sticky" className="header-4">
-//     <div className="container">
-//       <div className="mega-menu-wrapper">
-//         <div className="header-main style-2">
-//           <div className="header-left">
-//             <div className="logo">
-//               <Logo />
-//               <Logo className="header-logo-2" logo="logo.png" />
-//             </div>
-//           </div>
-//           <div className="header-right d-flex justify-content-end align-items-center">
-//             <div className="mean__menu-wrapper">
-//               <Nav />
-//             </div>
-//             <div className="header-button d-none d-sm-block">
-//               <Link href="/contact" className="theme-btn">
-//                 Donate Now
-//                 <i className="ps-2 far fa-heart" />
-//               </Link>
-//             </div>
-//             <div className="header__hamburger d-xl-none my-auto">
-//               <div className="sidebar__toggle" onClick={open}>
-//                 <i className="fas fa-bars" />
-//               </div>
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   </header>
-// );
-
-// const Header2 = ({ open }: { open: () => void }) => (
-//   <Fragment>
-//     <div className="header-top-section-3">
-//       <div className="container">
-//         <div className="header-top-wrapper-2 style-3">
-//           {/* <ContactList
-//             items={[
-//               {
-//                 icon: "fal fa-map-marker-alt",
-//                 content: "Main Street, Melbourne, Australia",
-//               },
-//               {
-//                 icon: "far fa-envelope",
-//                 content: (
-//                   <a href="mailto:info@example.com" className="link">
-//                     info@example.com
-//                   </a>
-//                 ),
-//               },
-//             ]}
-//           /> */}
-//           <SocialIcons label="Follow Us On:" />
-//         </div>
-//       </div>
-//     </div>
-//     <header id="header-sticky" className="header-3">
-//       <div className="container">
-//         <div className="mega-menu-wrapper">
-//           <div className="header-main style-2">
-//             <div className="header-left">
-//               <div className="logo">
-//                 <Logo logo="logo.png" />
-//               </div>
-//               <div className="mean__menu-wrapper">
-//                 <Nav />
-//               </div>
-//             </div>
-//             <div className="header-right d-flex justify-content-end align-items-center">
-//               <div className="author-icon">
-//                 <div className="icon">
-//                   <i className="fa fa-regular fa-phone" />
-//                 </div>
-//                 <div className="content">
-//                   <span>Call Us Now</span>
-//                   <h5>
-//                     <a href="tel:+2085550112">+000 (123) 456 88</a>
-//                   </h5>
-//                 </div>
-//               </div>
-//               <div className="header-button">
-//                 <Link href="causes" className="theme-btn">
-//                   Donate Now
-//                   <i className="ps-2 far fa-heart" />
-//                 </Link>
-//               </div>
-//               <div className="header__hamburger d-xl-none my-auto">
-//                 <div className="sidebar__toggle" onClick={open}>
-//                   <i className="fas fa-bars" />
-//                 </div>
-//               </div>
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     </header>
-//   </Fragment>
-// );
 
 const Header3 = ({ open }: { open: () => void }) => {
   const [toggle, setToggle] = useState(false);
   return (
     <Fragment>
-      {/* <SearchPopup open={toggle} close={() => setToggle(false)} /> */}
+    
       <header className="header-section-1">
         <div className="header-top-section fix">
           <div className="container-fluid">
             <div className="header-top-wrapper style-2">
               <ContactList
                 items={[
-                  // {
-                  //   icon: "far fa-envelope",
-                  //   content: (
-                  //     <a href="mailto:info@example.com" className="link">
-                  //       info@example.com
-                  //     </a>
-                  //   ),
-                  // },
+                
                   {
                     icon: "far fa-greeting",
                     content: (
                       <span className="tracking-wider text-white">Welcome to Jeni Traders - Best Scrap Buyers in Chennai</span>
                     ),
                   },
-                  // {
-                  //   icon: "fa fa-regular fa-phone",
-                  //   content: <a href="tel:+917639582802">+91 76395 82802</a>,
-                  // },
+                 
                 ]}
               />
               <div className="top-right">
@@ -212,7 +102,7 @@ const Header3 = ({ open }: { open: () => void }) => {
             <div className="mega-menu-wrapper">
               <div className="header-main">
                 <div className="logo d-none">
-                  <Logo logo="logo.png" />
+                  <Logo logo="logo-1.png" />
                 </div>
                 <div className="header-left">
                   <div className="mean__menu-wrapper">
@@ -270,78 +160,16 @@ const Nav = () => (
         <li className="has-dropdown">
           <Link href="/service">
             Our Services
-            {/* <i className="fas fa-angle-down" /> */}
+           
           </Link>
-          {/* <ul className="submenu">
-            <li>
-              <Link href="/causes">Causes List</Link>
-            </li>
-            <li>
-              <Link href="/causes-details">Causes Details</Link>
-            </li>
-            <li>
-              <Link href="/donation-details">Donation</Link>
-            </li>
-          </ul> */}
+         
         </li>
-        {/* <li className="has-dropdown">
-          <Link href="/news">
-            Pages
-            <i className="fas fa-angle-down" />
-          </Link>
-          <ul className="submenu">
-            <li className="has-dropdown">
-              <Link href="/event-details">
-                Events
-                <i className="fas fa-angle-down" />
-              </Link>
-              <ul className="submenu">
-                <li>
-                  <Link href="/events">Events</Link>
-                </li>
-                <li>
-                  <Link href="/event-details">Event Details</Link>
-                </li>
-              </ul>
-            </li>
-            <li className="has-dropdown">
-              <Link href="/team-details">
-                volunteer
-                <i className="fas fa-angle-down" />
-              </Link>
-              <ul className="submenu">
-                <li>
-                  <Link href="/team">Our volunteer</Link>
-                </li>
-                <li>
-                  <Link href="/team-details">volunteer Details</Link>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <Link href="/faq">Faq's</Link>
-            </li>
-            <li>
-              <Link href="/404">404 Page</Link>
-            </li>
-          </ul>
-        </li> */}
+      
         <li className="has-dropdown">
           <Link href="/Work">
             Our Works
-            {/* <i className="fas fa-angle-down" /> */}
           </Link>
-          {/* <ul className="submenu">
-            <li>
-              <Link href="/news-grid">Blog Grid</Link>
-            </li>
-            <li>
-              <Link href="/news">Blog Standard</Link>
-            </li>
-            <li>
-              <Link href="/news-details">Blog Details</Link>
-            </li>
-          </ul> */}
+          
         </li>
         <li>
           <Link href="/contact">Contact Us</Link>
@@ -366,7 +194,7 @@ const MobileMenu = ({ open, close }: { open: boolean; close: () => void }) => (
           <div className="offcanvas__content">
             <div className="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
               <div className="offcanvas__logo">
-                <Logo logo="logo.png" className="" />
+                <Logo logo="logo-1.png" className="logo-imgs"  />
               </div>
               <div className="offcanvas__close">
                 <button onClick={close}>
@@ -387,13 +215,9 @@ const MobileMenu = ({ open, close }: { open: boolean; close: () => void }) => (
                   {
                     icon: "fal fa-map-marker-alt",
                     link: "#",
-                    text: "Pl No.08,Door No.17,Thiruvalluvar Street, Ullagaram,600091.",
+                    text: "Pl No.08, Door No.17, Thiruvalluvar Street, Ullagaram, Chennai - 600091.",
                   },
-                  // {
-                  //   icon: "fal fa-envelope",
-                  //   link: "mailto:info@azent.com",
-                  //   text: "info@example.com",
-                  // },
+                 
                   {
                     icon: "fal fa-clock",
                     link: "#",
@@ -437,7 +261,7 @@ const MobileMenu = ({ open, close }: { open: boolean; close: () => void }) => (
                   </span>
                 </Link>
               </div>
-              <SocialIcons label="" />
+              {/* <SocialIcons label="" /> */}
             </div>
           </div>
         </div>
@@ -474,118 +298,26 @@ const MobileNav = () => {
             <li className="has-dropdown">
               <Link href="/" className="border-none">
                 Home
-                {/* <i className="fas fa-angle-down" /> */}
               </Link>
-              {/* <ul className="submenu" style={show("home", activeMenu)}>
-                {[1, 2, 3, 4].map((n) => (
-                  <li key={n}>
-                    <Link href={n === 1 ? "/index" : `/index-${n}`}>
-                      Home 0{n}
-                    </Link>
-                  </li>
-                ))}
-              </ul> */}
-              {/* <a
-                className="mean-expand"
-                href="#"
-                onClick={() => toggle("home", setActiveMenu, activeMenu)}
-              >
-                <i className="far fa-plus" />
-              </a> */}
             </li>
             <li>
               <Link href="/about">About US</Link>
             </li>
             <li>
-              <Link href="/causes-details">
+              <Link href="/service">
                 Services US
-                <i className="fas fa-angle-down" />
+               
               </Link>
-              <ul className="submenu" style={show("Causes", activeMenu)}>
-                <li>
-                  <Link href="/causes">Causes List</Link>
-                </li>
-                <li>
-                  <Link href="/causes-details">Causes Details</Link>
-                </li>
-                <li>
-                  <Link href="/donation-details">Donation</Link>
-                </li>
-              </ul>
-              <a
-                className="mean-expand"
-                href="#"
-                onClick={() => toggle("Causes", setActiveMenu, activeMenu)}
-              >
-                <i className="far fa-plus" />
-              </a>
             </li>
             <li className="has-dropdown">
-              <Link href="/news">
+              <Link href="/Work">
                 Our Works
-                <i className="fas fa-angle-down" />
               </Link>
-              <ul className="submenu" style={show("Pages", activeMenu)}>
-                <li className="has-dropdown">
-                  <Link href="/event-details">
-                    Events
-                    <i className="fas fa-angle-down" />
-                  </Link>
-                  <ul className="submenu" style={show("Events", multiMenu)}>
-                    <li>
-                      <Link href="/events">Events</Link>
-                    </li>
-                    <li>
-                      <Link href="/event-details">Event Details</Link>
-                    </li>
-                  </ul>
-                  <a
-                    className="mean-expand"
-                    href="#"
-                    onClick={() => toggle("Events", setMultiMenu, multiMenu)}
-                  >
-                    <i className="far fa-plus" />
-                  </a>
-                </li>
-                <li className="has-dropdown">
-                  <Link href="/team-details">
-                    volunteer
-                    <i className="fas fa-angle-down" />
-                  </Link>
-                  <ul className="submenu" style={show("volunteer", multiMenu)}>
-                    <li>
-                      <Link href="/team">Our volunteer</Link>
-                    </li>
-                    <li>
-                      <Link href="/team-details">volunteer Details</Link>
-                    </li>
-                  </ul>
-                  <a
-                    className="mean-expand"
-                    href="#"
-                    onClick={() => toggle("volunteer", setMultiMenu, multiMenu)}
-                  >
-                    <i className="far fa-plus" />
-                  </a>
-                </li>
-                <li>
-                  <Link href="/faq">Faq's</Link>
-                </li>
-                <li>
-                  <Link href="/404">404 Page</Link>
-                </li>
-              </ul>
-              <a
-                className="mean-expand"
-                href="#"
-                onClick={() => toggle("Pages", setActiveMenu, activeMenu)}
-              >
-                <i className="far fa-plus" />
-              </a>
+            
             </li>
 
             <li className="mean-last">
-              <Link href="/contact">Contact</Link>
+              <Link href="/contact">Contact Us</Link>
             </li>
           </ul>
         </nav>

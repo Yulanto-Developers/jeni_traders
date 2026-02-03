@@ -2167,6 +2167,7 @@ input.main-search-input::placeholder {
 @media (max-width: 575px) {
   .offcanvas__wrapper {
     padding: 20px;
+    padding-left: 5px !important;
   }
 }
 
@@ -5972,7 +5973,7 @@ input.main-search-input::placeholder {
   width: 114px;
   height: 90px;
   content: "";
-  background: url(../img/event/quote-gray.png) no-repeat;
+  /* background: url(../img/event/quote-gray.png) no-repeat; */
   z-index: -1;
 }
 
@@ -6579,7 +6580,7 @@ input.main-search-input::placeholder {
 .blog-wrapper .single-blog-post.format-quote .post-content {
   position: relative;
   background-color: var(--theme-3);
-  background-image: url("../img/quotepost.png");
+  /* background-image: url("../img/quotepost.png"); */
   border: none;
 }
 

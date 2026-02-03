@@ -1,10 +1,10 @@
 import { About3 } from "@/components/About";
 import { Causes3 } from "@/components/Causes";
-import { Cta3, Cta4 } from "@/components/Cta";
+import { Cta3} from "@/components/Cta";
 import { Event3 } from "@/components/Event";
-import { Feature2 } from "@/components/Feature";
+// import { Feature2 } from "@/components/Feature";
 import { HeroSlider3 } from "@/components/HeroSlider";
-import { News3 } from "@/components/News";
+// import { News3 } from "@/components/News";
 import { Promo2 } from "@/components/Promo";
 import DanboxLayout from "@/layout/DanboxLayout";
 import { Testimonial2 } from "@/components/Testimonial";
@@ -24,7 +24,7 @@ const Home3 = () => {
       {/* <Feature2 /> */}
       {/* <Cta4 /> */}
       <Testimonial2 />
-      {/* <News3 /> */}
+    
     </DanboxLayout>
   );
 };

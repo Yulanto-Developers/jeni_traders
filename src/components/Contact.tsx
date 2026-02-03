@@ -108,12 +108,9 @@ export const Contact1 = () => {
       </div>
       <div className="map-item">
         <div className="google-map">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6678.7619084840835!2d144.9618311901502!3d-37.81450084255415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642b4758afc1d%3A0x3119cc820fdfc62e!2sEnvato!5e0!3m2!1sen!2sbd!4v1641984054261!5m2!1sen!2sbd"
-            style={{ border: 0 }}
+          <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3887.916900424427!2d80.1941944!3d12.9771667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTLCsDU4JzM3LjgiTiA4MMKwMTEnMzkuMSJF!5e0!3m2!1sen!2sin!4v1770125845365!5m2!1sen!2sin" style={{ border: 0 }}
             allowFullScreen={true}
-            loading="lazy"
-          />
+            loading="lazy"></iframe>
         </div>
       </div>
     </section>

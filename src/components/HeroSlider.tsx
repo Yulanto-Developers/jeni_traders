@@ -201,7 +201,7 @@ export const HeroSlider3 = () => {
                           data-delay={slide.delays.buttons}
                           className="theme-btn transparent-btn"
                         >
-                          Reach US
+                          Reach Us
                         </Link>
                       </div>
                     </div>

@@ -1,6 +1,6 @@
 "use client";
 import ImageView from "@/components/ImageView";
-import VideoPopup from "@/components/VideoPopup";
+// import VideoPopup from "@/components/VideoPopup";
 import { scrollAnimation } from "@/utility";
 import { Fragment, ReactNode } from "react";
 import Footer from "./Footer";
@@ -19,7 +19,7 @@ const DanboxLayout = ({
   scrollAnimation();
   return (
     <Fragment>
-      <VideoPopup />
+      {/* <VideoPopup /> */}
       <ImageView />
       <Header header={header} />
       {children}

@@ -382,7 +382,7 @@ export const Causes3 = () => {
                   <p className="mt-2">{cause.description}</p>
 
                   <div className="mt-4">
-                    <Link href="/contact" className="theme-btn custome-bth">
+                    <Link href="/service" className="theme-btn custome-bth">
                       {cause.btnText}
                       <i className="far fa-arrow-right ms-2" />
                     </Link>

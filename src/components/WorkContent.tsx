@@ -7,7 +7,7 @@ const tabs = [
     { key: "ewaste", label: "E-Waste" },
     { key: "plastic", label: "Plastic Waste" },
     { key: "metal", label: "Metal Waste" },
-    { key: "wooden", label: "Wooden Waste" },
+   
 ];
 
 const galleryItems: Record<
@@ -33,12 +33,6 @@ const galleryItems: Record<
         { id: 16, image: "/assets/img/waste-images/metal-waste/img-4.jpg", title: "Metal Waste Item 4" },
         { id: 17, image: "/assets/img/waste-images/metal-waste/img-5.jpg", title: "Metal Waste Item 5" },
         { id: 18, image: "/assets/img/waste-images/metal-waste/img-6.jpg", title: "Metal Waste Item 6" },
-        { id: 19, image: "/assets/img/waste-images/wooden-waste/img-1.jpg", title: "Wooden Waste Disposal" },
-        { id: 20, image: "/assets/img/waste-images/wooden-waste/img-2.jpg", title: "Wooden Waste Item 2" },
-        { id: 21, image: "/assets/img/waste-images/wooden-waste/img-3.jpg", title: "Wooden Waste Item 3" },
-        { id: 22, image: "/assets/img/waste-images/wooden-waste/img-4.jpg", title: "Wooden Waste Item 4" },
-        { id: 23, image: "/assets/img/waste-images/wooden-waste/img-5.jpg", title: "Wooden Waste Item 5" },
-        { id: 24, image: "/assets/img/waste-images/wooden-waste/img-6.jpg", title: "Wooden Waste Item 6" },
     ],
     ewaste: [
         { id: 1, image: "/assets/img/waste-images/electrical-waste/img-1.jpg", title: "E-Waste Collection" },
@@ -64,14 +58,7 @@ const galleryItems: Record<
         { id: 17, image: "/assets/img/waste-images/metal-waste/img-5.jpg", title: "Metal Waste Item 5" },
         { id: 18, image: "/assets/img/waste-images/metal-waste/img-6.jpg", title: "Metal Waste Item 6" },
     ],
-    wooden: [
-        { id: 19, image: "/assets/img/waste-images/wooden-waste/img-1.jpg", title: "Wooden Waste Disposal" },
-        { id: 20, image: "/assets/img/waste-images/wooden-waste/img-2.jpg", title: "Wooden Waste Item 2" },
-        { id: 21, image: "/assets/img/waste-images/wooden-waste/img-3.jpg", title: "Wooden Waste Item 3" },
-        { id: 22, image: "/assets/img/waste-images/wooden-waste/img-4.jpg", title: "Wooden Waste Item 4" },
-        { id: 23, image: "/assets/img/waste-images/wooden-waste/img-5.jpg", title: "Wooden Waste Item 5" },
-        { id: 24, image: "/assets/img/waste-images/wooden-waste/img-6.jpg", title: "Wooden Waste Item 6" },
-    ],
+   
 };
 
 export const CausesTab = () => {

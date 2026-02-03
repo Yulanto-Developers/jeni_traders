@@ -413,9 +413,9 @@ const FooterLogoContainer = () => (
       <div className="widget-head">
         <Link href="/">
           <Image
-            src="/assets/img/logo/white-logo_1.png"
-            width={230}
-            height={80}
+            src="/assets/img/logo/logo-2.png"
+            width={300}
+            height={100}
             alt="logo-img"
           />
         </Link>

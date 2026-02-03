@@ -1,8 +1,9 @@
 "use client";
 
 import { FaWhatsapp } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
 
-const FloatingWhatsApp = () => {
+export const FloatingWhatsApp = () => {
     return (
         <a
             href="https://wa.me/917639582802"
@@ -17,4 +18,21 @@ const FloatingWhatsApp = () => {
     );
 };
 
-export default FloatingWhatsApp;
+
+
+export const FloatingCall = () => {
+    return (
+        <a
+            href="tel:+917639582802" target="_blank"
+            className="bottom-cls m-4 d-flex d-md-none align-items-center justify-content-center rounded-circle bg-danger text-white shadow"
+            style={{ width: "56px", height: "56px", zIndex: 1050 }}
+            title="Call us"
+        >
+            <FaPhoneAlt size={22} />
+        </a>
+    );
+};
+
+// export default FloatingCall;
+
+// export default FloatingWhatsApp;

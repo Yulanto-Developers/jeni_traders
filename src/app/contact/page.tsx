@@ -67,7 +67,7 @@ const CausesPage = () => {
                 </div>
                 <div className="bottom-part">
                   <div className="info">
-                    <p><a href="tel:+917639582802" className="cat-btn">+91 76395 82802</a></p>
+                    <p>+91 76395 82802</p>
                     
                   </div>
                   <div className="icon">

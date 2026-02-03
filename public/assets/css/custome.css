@@ -134,3 +134,19 @@ a {
 .cat-btn {
     color: #000 !important;
 }
+.cats-btn {
+    color: #000 !important;
+}
+.cats-btn:hover {
+    color: #fffafa !important;
+}
+
+.bottom-cls{
+    position: fixed;
+    bottom: 70px;
+    left: 0px;
+}
+
+.logo-imgs{
+    width: 50px;
+}
