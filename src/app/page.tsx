@@ -8,13 +8,13 @@ import { News3 } from "@/components/News";
 import { Promo2 } from "@/components/Promo";
 import DanboxLayout from "@/layout/DanboxLayout";
 import { Testimonial2 } from "@/components/Testimonial";
-// import FloatingWhatsApp from "@/components/FloatingWhatsApp";
-import FloatingWhatsApp from "@/components/FloatingWhatsApp";
+
+
 
 const Home3 = () => {
   return (
     <DanboxLayout>
-      {/* <FloatingWhatsApp /> */}
+    
       <HeroSlider3 />
       <Promo2 />
       <About3 />

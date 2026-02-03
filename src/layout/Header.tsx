@@ -24,7 +24,7 @@ const Header = ({ header }: { header?: number }) => {
 export default Header;
 
 const Logo = ({
-  logo = "Logo_1.png",
+  logo = "logo.png",
   className = "header-logo",
 }: {
   logo?: string;
@@ -74,7 +74,7 @@ const ContactList = ({
 //           <div className="header-left">
 //             <div className="logo">
 //               <Logo />
-//               <Logo className="header-logo-2" logo="Logo_1.png" />
+//               <Logo className="header-logo-2" logo="logo.png" />
 //             </div>
 //           </div>
 //           <div className="header-right d-flex justify-content-end align-items-center">
@@ -130,7 +130,7 @@ const ContactList = ({
 //           <div className="header-main style-2">
 //             <div className="header-left">
 //               <div className="logo">
-//                 <Logo logo="Logo_1.png" />
+//                 <Logo logo="logo.png" />
 //               </div>
 //               <div className="mean__menu-wrapper">
 //                 <Nav />
@@ -212,7 +212,7 @@ const Header3 = ({ open }: { open: () => void }) => {
             <div className="mega-menu-wrapper">
               <div className="header-main">
                 <div className="logo d-none">
-                  <Logo logo="Logo_1.png" />
+                  <Logo logo="logo.png" />
                 </div>
                 <div className="header-left">
                   <div className="mean__menu-wrapper">
@@ -268,8 +268,8 @@ const Nav = () => (
           <Link href="/about">About Us</Link>
         </li>
         <li className="has-dropdown">
-          <Link href="/">
-            Our Service
+          <Link href="/service">
+            Our Services
             {/* <i className="fas fa-angle-down" /> */}
           </Link>
           {/* <ul className="submenu">
@@ -327,7 +327,7 @@ const Nav = () => (
           </ul>
         </li> */}
         <li className="has-dropdown">
-          <Link href="/">
+          <Link href="/Work">
             Our Works
             {/* <i className="fas fa-angle-down" /> */}
           </Link>
@@ -344,7 +344,7 @@ const Nav = () => (
           </ul> */}
         </li>
         <li>
-          <Link href="/contact">Contact</Link>
+          <Link href="/contact">Contact Us</Link>
         </li>
       </ul>
       <div className="header-button header-right">
@@ -366,7 +366,7 @@ const MobileMenu = ({ open, close }: { open: boolean; close: () => void }) => (
           <div className="offcanvas__content">
             <div className="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
               <div className="offcanvas__logo">
-                <Logo logo="Logo_1.png" className="" />
+                <Logo logo="logo.png" className="" />
               </div>
               <div className="offcanvas__close">
                 <button onClick={close}>

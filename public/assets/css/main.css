@@ -2265,7 +2265,7 @@ input.main-search-input::placeholder {
 }
 
 .breadcrumb-wrapper .page-heading .breadcrumb-items li a {
-  color: var(--theme-3);
+  color: var(--theme);
   transition: all 0.4s ease-in-out;
 }
 
@@ -3088,7 +3088,7 @@ input.main-search-input::placeholder {
 }
 
 .counter-section {
-  background-color: var(--theme-2);
+  background-color: var(--theme);
 }
 
 .counter-wrapper {
@@ -3137,7 +3137,7 @@ input.main-search-input::placeholder {
   position: absolute;
   left: 0;
   content: "---";
-  color: #dd867a;
+  color: #ffffff;
 }
 
 .service-card-items {
@@ -3487,7 +3487,7 @@ input.main-search-input::placeholder {
   width: 100%;
   height: 100%;
   content: "";
-  background-color: var(--theme-2);
+  background-color: var(--theme);
   top: 90%;
   z-index: -1;
 }
@@ -3515,7 +3515,7 @@ input.main-search-input::placeholder {
 }
 
 .about-wrapper-3 .about-image-items-2 .about-experience {
-  background-color: var(--theme-2);
+  background-color: var(--theme);
   padding: 30px;
 }
 
@@ -3559,7 +3559,7 @@ input.main-search-input::placeholder {
 }
 
 .about-wrapper-3 .about-content .d-flex {
-  gap: 50px;
+  gap: 10px;
 }
 
 @media (max-width: 1199px) {
@@ -3578,7 +3578,7 @@ input.main-search-input::placeholder {
 }
 
 .about-wrapper-3 .about-content .theme-btn {
-  background-color: var(--theme-2);
+  background-color: var(--theme);
 }
 
 .donation-card-items {
@@ -5491,7 +5491,7 @@ input.main-search-input::placeholder {
   font-weight: 700;
   font-size: 12px;
   line-height: 1;
-  color: var(--text);
+  color: rgb(171, 245, 33);
 }
 
 .event-single-items .event-image .event-content .sub-content .event-title h4 a {
@@ -8628,6 +8628,13 @@ p.sticky-label {
   background-color: #f8f8f8;
   padding: 40px;
   transition: all 0.3s ease-in-out;
+  height: 250px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 @media (max-width: 585px) {
@@ -8637,7 +8644,7 @@ p.sticky-label {
 }
 
 .single-contact-card:hover {
-  background-color: var(--header);
+  background-color: var(--theme);
 }
 
 .single-contact-card:hover .icon {
@@ -8772,7 +8779,7 @@ p.sticky-label {
 
 .main-contact-form-items .theme-btn {
   border-radius: 0;
-  background-color: var(--theme-2);
+  background-color: var(--theme);
 }
 
 .footer-widgets-wrapper {

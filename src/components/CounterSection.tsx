@@ -11,41 +11,41 @@ export const CounterSection1 = () => {
     delay: string;
     iconWidth: number;
   }[] = [
-    {
-      icon: "/assets/img/icon/c-1.png",
-      iconWidth: 34,
-      count: 5,
-      suffix: "M",
-      unit: "+",
-      title: "Projects Done",
-      delay: ".2s",
-    },
-    {
-      icon: "/assets/img/icon/c-2.png",
-      iconWidth: 50,
-      count: 1,
-      suffix: "M",
-      unit: "+",
-      title: "Hopeless Child",
-      delay: ".4s",
-    },
-    {
-      icon: "/assets/img/icon/c-3.png",
-      iconWidth: 42,
-      count: 99,
-      unit: "+",
-      title: "Team Member",
-      delay: ".6s",
-    },
-    {
-      icon: "/assets/img/icon/c-4.png",
-      iconWidth: 42,
-      count: 10,
-      unit: "+",
-      title: "Get Reards",
-      delay: ".8s",
-    },
-  ];
+      {
+        icon: "/assets/img/icon/icon-1.png",
+        iconWidth: 34,
+        count: 5,
+        suffix: "M",
+        unit: "+",
+        title: "Projects Done",
+        delay: ".2s",
+      },
+      {
+        icon: "/assets/img/icon/icon-2.png",
+        iconWidth: 50,
+        count: 10,
+        unit: "+",
+        title: "Years of Experience",
+        delay: ".4s",
+      },
+      {
+        icon: "/assets/img/icon/icon-3.png",
+        iconWidth: 42,
+        count: 5000,
+        unit: "+",
+        title: "Happy Customers",
+        delay: ".6s",
+      },
+      {
+        icon: "/assets/img/icon/icon-4.png",
+        iconWidth: 42,
+        count: 2500,
+        unit: "+",
+        title: "Tons of Scrap Recycled",
+        delay: ".8s",
+      },
+    ];
+
   return (
     <section className="counter-section section-padding">
       <div className="container">
@@ -58,10 +58,9 @@ export const CounterSection1 = () => {
             >
               <div className="icon">
                 <Image
-                  width={0}
-                  height={0}
+                  width={52}
+                  height={52}
                   sizes="100vw"
-                  style={{ width: `${item.iconWidth}px`, height: "auto" }}
                   src={item.icon}
                   alt="img"
                 />

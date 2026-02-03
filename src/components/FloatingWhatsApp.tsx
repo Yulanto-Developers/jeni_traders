@@ -1,15 +1,18 @@
 "use client";
 
+import { FaWhatsapp } from "react-icons/fa";
+
 const FloatingWhatsApp = () => {
     return (
         <a
-            href="https://wa.me/919876543210"
+            href="https://wa.me/917639582802"
             target="_blank"
             rel="noopener noreferrer"
-            className="fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-green-500 text-white shadow-lg hover:bg-green-600 transition"
+            className="position-fixed bottom-0 start-0 m-4 d-flex align-items-center justify-content-center rounded-circle bg-success text-white shadow"
+            style={{ width: "56px", height: "56px", zIndex: 1050 }}
             title="Chat with us on WhatsApp"
         >
-            <i className="fab fa-whatsapp text-2xl"></i>
+            <FaWhatsapp size={28} />
         </a>
     );
 };

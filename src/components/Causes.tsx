@@ -323,7 +323,7 @@ export const Causes3 = () => {
         category: "Scrap",
         title: "Copper Cables & Wires",
         description: "All grades of copper cables and wires purchased.",
-         btnText: "Read more",
+        btnText: "Read more",
       },
       {
         delay: ".7s",
@@ -331,7 +331,7 @@ export const Causes3 = () => {
         category: "Scrap",
         title: "Heavy Metal & Steel",
         description: "Industrial steel and heavy metal scrap buying service.",
-         btnText: "Read more",
+        btnText: "Read more",
       },
       {
         delay: ".7s",
@@ -339,7 +339,7 @@ export const Causes3 = () => {
         category: "Scrap",
         title: "Iron Scrap",
         description: "Iron scrap collection with fast pickup and payment.",
-         btnText: "Read more",
+        btnText: "Read more",
       },
     ];
 
@@ -349,7 +349,7 @@ export const Causes3 = () => {
         <div className="section-title text-center">
           <span className="sub-title wow fadeInUp">
             <i className="far fa-gear" />
-            Our Service
+            Our Services
           </span>
           <h2 className="mt-char-animation">
             WE ACCEPT A <br />

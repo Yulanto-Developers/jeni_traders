@@ -18,7 +18,7 @@ export const About1 = () => {
                         height={0}
                         sizes="100vw"
                         style={{ width: "100%", height: "100%" }}
-                        src="/assets/img/about/08.jpg"
+                        src="/assets/img/about/about-8.jpg"
                         alt="img"
                       />
                     </div>
@@ -26,10 +26,10 @@ export const About1 = () => {
                   <div className="col-lg-5 wow fadeInUp" data-wow-delay=".5s">
                     <div className="about-experience">
                       <h2>
-                        <span className="count">25</span>+
+                        <span className="count">10</span>+
                       </h2>
                       <h6>Years Of Experience</h6>
-                      <div className="thumb">
+                      {/* <div className="thumb">
                         <Image
                           width={135}
                           height={55}
@@ -38,7 +38,7 @@ export const About1 = () => {
                           alt="img"
                         />
                       </div>
-                      <h6>Globally Clients</h6>
+                      <h6>Globally Clients</h6> */}
                     </div>
                     <div className="about-img">
                       <Image
@@ -46,7 +46,7 @@ export const About1 = () => {
                         height={0}
                         sizes="100vw"
                         style={{ width: "100%", height: "auto" }}
-                        src="/assets/img/about/09.jpg"
+                        src="/assets/img/about/about-9.jpg"
                         alt="img"
                       />
                     </div>
@@ -58,34 +58,28 @@ export const About1 = () => {
               <div className="about-content">
                 <div className="section-title">
                   <span className="sub-title color-2 wow fadeInUp">
-                    <i className="far fa-heart" />
+                    <i className="far fa-gear" />
                     About Us
                   </span>
                   <h2 className="mt-char-animation">
-                    We’ve Funded{" "}
-                    <span className="count">
-                      <Counter end={44} />
-                    </span>
-                    <span>k</span> Dollars Over
+                    Trusted <span>Scrap Buyers</span> in Chennai
                   </h2>
+
                 </div>
                 <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                  There are only a few times in each of our lives that we get to
-                  witness a truly historic global ccomplishment: Ending
-                  smallpox, tearing.Your $40.00 monthly donation can give 12
-                  people.
+                  Jeni Traders is a leading buyer of all types of scrap metals, serving Chennai and Tamil Nadu with complete recycling solutions. As direct scrap metal importers, we provide fair pricing, timely pickup, and responsible recycling services for industrial, commercial, and business needs.
                 </p>
-                <div className="d-flex align-items-center flex-wrap mb-5">
+                <div className="d-flex align-items-center mb-3">
                   <ul
                     className="checked-list wow fadeInUp"
                     data-wow-delay=".3s"
                   >
                     <li>
-                      <i className="far fa-check" /> A place in history
+                      <i className="far fa-wrench" /> Accurate scrap quality inspection
                     </li>
                     <li>
-                      <i className="far fa-check" />
-                      It’s about impact, goodness
+                      <i className="far fa-wrench" />
+                      Instant payment after verification
                     </li>
                   </ul>
                   <ul
@@ -93,20 +87,20 @@ export const About1 = () => {
                     data-wow-delay=".5s"
                   >
                     <li>
-                      <i className="far fa-check" /> A place in history
+                      <i className="far fa-wrench" />Zero pickup and service charges
                     </li>
                     <li>
-                      <i className="far fa-check" />
-                      It’s about impact, goodness
+                      <i className="far fa-wrench" />
+                      Doorstep scrap collection across Chennai & Tamil Nadu
                     </li>
                   </ul>
                 </div>
                 <Link
-                  href="causes"
+                  href="contact"
                   className="theme-btn wow fadeInUp"
                   data-wow-delay=".7s"
                 >
-                  Learn More
+                  Reach Us
                 </Link>
               </div>
             </div>
@@ -122,43 +116,30 @@ export const About2 = ({ containerClass }: { containerClass?: string }) => {
     img: string;
     delay: string;
   }[] = [
-    {
-      img: "/assets/img/about/05.jpg",
-      delay: ".3s",
-    },
-    {
-      img: "/assets/img/about/06.jpg",
-      delay: ".5s",
-    },
-    {
-      img: "/assets/img/about/07.jpg",
-      delay: ".7s",
-    },
-  ];
+      {
+        img: "/assets/img/about/about-6.jpg",
+        delay: ".3s",
+      },
+      {
+        img: "/assets/img/about/about-7.jpg",
+        delay: ".5s",
+      },
+      {
+        img: "/assets/img/about/about-5.jpg",
+        delay: ".7s",
+      },
+    ];
   return (
     <section className={`about-section-2 fix ${containerClass}`}>
       <div className="container">
-        <div className="org-logo-wrap text-center">
-          <div className="org-logo wow fadeInUp" data-wow-delay=".3s">
-            <Image
-              width={99}
-              height={108}
-              sizes="100vw"
-              style={{ width: "auto", height: "auto" }}
-              src="/assets/img/about-logo.png"
-              alt="img"
-            />
-          </div>
-        </div>
-        <div className="section-title text-center">
+        <div className="section-title margin-botton-zero text-center">
           <span className="sub-title color-2 wow fadeInUp">
-            <i className="far fa-heart" />
-            Life Changing Video
+            <i className="far fa-gear" />
+            Our Works
           </span>
           <h2 className="mt-char-animation">
-            Access to clean water <span className="color-2">changed the</span>{" "}
-            <br />
-            <span>lives</span> of Hadjara, Umu, Natalia
+            Turning <span className="color-2">Your Scrap</span> <br />
+            Into <span>Real Value</span>
           </h2>
         </div>
         <div className="row">

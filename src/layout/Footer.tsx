@@ -57,7 +57,7 @@ const Footer2 = () => {
                         </h6>
                       </div>
                     </div>
-                    <div className="contact-items">
+                    {/* <div className="contact-items">
                       <div className="icon color-2">
                         <i className="fal fa-envelope" />
                       </div>
@@ -68,7 +68,7 @@ const Footer2 = () => {
                           </a>
                         </h6>
                       </div>
-                    </div>
+                    </div> */}
                     <div className="contact-items">
                       <div className="icon color-3">
                         <i className="fal fa-map-marker-alt" />
@@ -78,7 +78,7 @@ const Footer2 = () => {
                           Pl No.08,
                           Door No.17,<br />
                           Thiruvalluvar Street,
-                          Ullagaram,600091.
+                          Ullagaram, 600091.
                         </h6>
                       </div>
                     </div>
@@ -98,7 +98,7 @@ const Footer2 = () => {
             </p>
             <div className="card-image wow fadeInRight" data-wow-delay=".5s">
               <p className="wow fadeInLeft" data-wow-delay=".3s">
-                Designed by  <a href="https://yulanto.com" target="blank">Yulanto web creation</a>
+                Designed by  <a href="https://yulanto.com" target="blank">Yulanto web creations</a>
               </p>
             </div>
           </div>
@@ -492,9 +492,9 @@ const LinksCol = ({
 const menu = [
   { link: "/", text: "Home" },
   { link: "about", text: "About Us" },
-  { link: "causes", text: "Service Us" },
+  { link: "causes", text: "Our Services" },
   { link: "events", text: "Our Works" },
-  { link: "team", text: "Contact" },
+  { link: "team", text: "Contact Us" },
   // { link: "news", text: "Latest News" },
 ];
 const legalLink = [

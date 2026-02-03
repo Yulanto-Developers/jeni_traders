@@ -3,6 +3,7 @@ import "@css/swiper-bundle.min.css";
 import "@css/animate.css";
 import "@css/bootstrap.min.css";
 import "@css/font-awesome.css";
+// import "@fortawesome/fontawesome-free/css/all.min.css";
 import "@css/magnific-popup.css";
 import "@css/meanmenu.css";
 import "@css/nice-select.css";
@@ -11,9 +12,10 @@ import "@css/custome.css";
 import type { Metadata } from "next";
 import { Chelsea_Market, DM_Sans } from "next/font/google";
 import "./globals.css";
-import Preloader from "@/layout/Preloader";
+// import Preloader from "@/layout/Preloader";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ClientPreloader from "@/components/ClientPreloader";
+import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 
 // const Preloader = dynamic(() => import("@/layout/Preloader"), {
 //   ssr: false,
@@ -45,6 +47,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${chelsea_market.variable} ${dmSans.variable}`}>
         <ClientPreloader />
+        <FloatingWhatsApp />
         {children}
       </body>
     </html>
