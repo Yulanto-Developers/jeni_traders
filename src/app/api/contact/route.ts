@@ -41,17 +41,71 @@ export async function POST(req: Request) {
           name: lname,
         },
         subject: "New Enquiry from JUAN TRADERS",
+
         htmlContent: `
-         <html><head></head><body>
-    <h2>New Vendor Application</h2>
-    <table border="1" style="border-collapse:collapse; border: 1px solid #000;">
-        <tr><td style="padding:10px"><b>Company Client Name</b></td><td style="padding:10px">${fname}td></tr>
-        <tr><td style="padding:10px"><b>Concern Company Name</b></td><td style="padding:10px">${lname}</td></tr>
-        <tr><td style="padding:10px"><b>Client Phone Number</b></td><td style="padding:10px">${phone}</td></tr>
-       <tr><td style="padding:10px"><b>Client Email ID</b></td><td style="padding:10px">${email}</td></tr>
-       <tr><td style="padding:10px"><b>Subject</b></td><td style="padding:10px">${message}</td></tr>
-    </table>
-    </body></html> `,
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+</head>
+<body style="font-family: Arial, sans-serif; background-color:#f4f4f4; padding:20px;">
+
+  <div style="max-width:700px; margin:auto; background:#ffffff; border-radius:6px; overflow:hidden;">
+
+    <!-- Header -->
+    <div style="background:#eeeeee; padding:15px; text-align:center;">
+      <h3 style="margin:0; color:#333;">
+        Enquiry Details - ${new Date().toLocaleString()}
+      </h3>
+    </div>
+
+    <!-- Table Content -->
+    <div style="padding:20px;">
+      <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
+        
+        <tr>
+          <td style="padding:10px; border:1px solid #ddd;"><b>Name</b></td>
+          <td style="padding:10px; border:1px solid #ddd;">${fname} ${lname}</td>
+        </tr>
+
+        <tr>
+          <td style="padding:10px; border:1px solid #ddd;"><b>Phone</b></td>
+          <td style="padding:10px; border:1px solid #ddd;">${phone}</td>
+        </tr>
+
+        <tr>
+          <td style="padding:10px; border:1px solid #ddd;"><b>Email</b></td>
+          <td style="padding:10px; border:1px solid #ddd;">${email}</td>
+        </tr>
+
+        <tr>
+          <td style="padding:10px; border:1px solid #ddd;"><b>Message</b></td>
+          <td style="padding:10px; border:1px solid #ddd;">${message}</td>
+        </tr>
+
+      </table>
+
+      <!-- Warning -->
+      <p style="margin-top:20px; color:red; font-weight:bold;">
+        ⚠ Do not reply to this mail
+      </p>
+    </div>
+
+    <!-- Footer -->
+    <div style="background:#eeeeee; padding:15px; text-align:center;">
+      <img 
+        src="https://demo3.yulanto.in/jeni-traders/images/logo-1.png" 
+        alt="JUAN TRADERS"
+        style="max-width:140px;"
+      />
+    </div>
+
+  </div>
+
+</body>
+</html>
+`,
+
       }),
     });
 
@@ -75,7 +129,7 @@ export async function POST(req: Request) {
         },
         to: [{ email, name: fname }],
         subject: "Thank you for contacting JUAN TRADERS",
-       htmlContent: `
+        htmlContent: `
   <div style="font-family: Arial, sans-serif; max-width: 600px; margin: auto; border: 1px solid #e5e5e5; padding: 20px;">
     <div style="text-align: center; margin-bottom: 20px;">
       <img 
@@ -96,7 +150,9 @@ export async function POST(req: Request) {
       We have received your enquiry and our team will contact you shortly.
       Thank you for reaching out to us.
     </p>
-
+ <p style="margin-top:20px; color:red; font-weight:bold;">
+        ⚠ Do not reply to this mail
+      </p>
     <br />
 
     <p>
