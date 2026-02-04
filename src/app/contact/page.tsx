@@ -133,9 +133,6 @@ const CausesPage = () => {
                     <p>juantraders24@gmail.com</p>
 
                   </div>
-                  {/* <div className="icon">
-                    <i className="fal fa-arrow-right" />
-                  </div> */}
                 </div>
               </div>
             </div>
@@ -163,9 +160,6 @@ const CausesPage = () => {
 
                       Ullagaram, Chennai - 600091.</p>
                   </div>
-                  {/* <div className="icon">
-                    <i className="fal fa-arrow-right" />
-                  </div> */}
                 </div>
               </div>
             </div>
@@ -197,8 +191,9 @@ const CausesPage = () => {
                     <input
                       type="text"
                       name="fname"
-                      placeholder="Your First Name*"
+                      placeholder="Your Full Name*"
                       onChange={handleChanges}
+                      required
                     />
                   </div>
                 </div>
@@ -207,7 +202,7 @@ const CausesPage = () => {
                     <input
                       type="text"
                       name="lname"
-                      placeholder="Your Last Name*"
+                      placeholder="Your Company Name"
                       onChange={handleChanges}
                     />
                   </div>
@@ -219,6 +214,7 @@ const CausesPage = () => {
                       name="phone"
                       placeholder="Phone*"
                       onChange={handleChanges}
+                      required
                     />
                   </div>
                 </div>
@@ -227,8 +223,9 @@ const CausesPage = () => {
                     <input
                       type="text"
                       name="email"
-                      placeholder="email*"
+                      placeholder="Enter Your Email*"
                       onChange={handleChanges}
+                      required
                     />
                   </div>
                 </div>
@@ -240,6 +237,7 @@ const CausesPage = () => {
                       placeholder="Write Message*"
                       onChange={handleChanges}
                       defaultValue={""}
+                      required
                     />
                   </div>
                 </div>
