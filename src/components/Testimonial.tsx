@@ -138,7 +138,7 @@ export const Testimonial2 = () => {
 
       {
         stars: 5,
-        text: "Jeni Traders provided quick and hassle-free scrap pickup from our home. Fair pricing and very professional service.",
+        text: "Juan Traders provided quick and hassle-free scrap pickup from our home. Fair pricing and very professional service.",
         img: "/assets/img/testimonial/person-1.jpg",
         name: "Ramesh Kumar",
         role: "Home Owner",
@@ -152,7 +152,7 @@ export const Testimonial2 = () => {
       },
       {
         stars: 5,
-        text: "We sold bulk iron and steel scrap to Jeni Traders. Smooth process, accurate weight, and instant payment.",
+        text: "We sold bulk iron and steel scrap to Juan Traders. Smooth process, accurate weight, and instant payment.",
         img: "/assets/img/testimonial/person-3.jpg",
         name: "Anand Velu",
         role: "Factory Manager",
@@ -166,7 +166,7 @@ export const Testimonial2 = () => {
       },
       {
         stars: 5,
-        text: "Very satisfied with their service. Jeni Traders handled our industrial scrap responsibly and efficiently.",
+        text: "Very satisfied with their service. Juan Traders handled our industrial scrap responsibly and efficiently.",
         img: "/assets/img/testimonial/person-1.jpg",
         name: "Murugan S",
         role: "Industrial Client",
@@ -187,7 +187,7 @@ export const Testimonial2 = () => {
       },
       {
         stars: 4,
-        text: "Jeni Traders made scrap selling simple and stress-free. Great service and quick settlement.",
+        text: "Juan Traders made scrap selling simple and stress-free. Great service and quick settlement.",
         img: "/assets/img/testimonial/person-4.jpg",
         name: "Senthil Nathan",
         role: "Office Admin",

@@ -67,7 +67,7 @@ export const About1 = () => {
 
                 </div>
                 <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                  Jeni Traders is a leading buyer of all types of scrap metals, serving Chennai and Tamil Nadu with complete recycling solutions. As direct scrap metal importers, we provide fair pricing, timely pickup, and responsible recycling services for industrial, commercial, and business needs.
+                  Juan Traders is a leading buyer of all types of scrap metals, serving Chennai and Tamil Nadu with complete recycling solutions. As direct scrap metal importers, we provide fair pricing, timely pickup, and responsible recycling services for industrial, commercial, and business needs.
                 </p>
                 <div className="d-flex align-items-center mb-3">
                   <ul
@@ -217,7 +217,7 @@ export const About3 = () => {
                 <div className="section-title">
                   <span className="sub-title color-2 wow fadeInUp">
                     <i className="fa-light fa-scroll-old"></i>
-                    Welcome to Jeni Traders
+                    Welcome to Juan Traders
                   </span>
                   <h2 className="mt-char-animation">
                     Your Trusted Scrap Metal Partner in{" "}
@@ -225,7 +225,7 @@ export const About3 = () => {
                   </h2>
                 </div>
                 <p className="mt-3 mt-md-0 wow fadeInUp text-justify" data-wow-delay=".5s">
-                  Jeni Traders is a leading buyer of all types of scrap metals, serving Chennai and Tamil Nadu with complete recycling solutions. As direct scrap metal importers, we provide fair pricing, timely pickup, and responsible recycling services for industrial, commercial, and business needs.
+                  Juan Traders is a leading buyer of all types of scrap metals, serving Chennai and Tamil Nadu with complete recycling solutions. As direct scrap metal importers, we provide fair pricing, timely pickup, and responsible recycling services for industrial, commercial, and business needs.
                 </p>
                 <ul className="checked-list wow fadeInUp" data-wow-delay=".3s">
                   <li>Accurate scrap quality inspection</li>

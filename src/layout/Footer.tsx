@@ -31,7 +31,7 @@ const Footer2 = () => {
             >
               <LinksCol heading="Menu" links={menu} />
             </div>
-         
+
             <div
               className="col-xl-4 col-lg-4 col-md-6 ps-lg-5  wow fadeInUp"
               data-wow-delay=".3s"
@@ -52,7 +52,19 @@ const Footer2 = () => {
                         </h6>
                       </div>
                     </div>
-                   
+                    <div className="contact-items">
+                      <div className="icon color-2">
+                        <i className="fal fa-envelope" />
+                      </div>
+                      <div className="content">
+                        <h6 className="lowerCase">
+                          <a href="mailto:juantraders24@gmail.com" className="link">
+                            juantraders24@gmail.com
+                          </a>
+                        </h6>
+                      </div>
+                    </div>
+
                     <div className="contact-items">
                       <div className="icon color-3">
                         <i className="fal fa-map-marker-alt" />
@@ -76,16 +88,12 @@ const Footer2 = () => {
       </div>
       <div className="footer-bottom-3">
         <div className="container">
-          <div className="footer-bottom-wrapper d-flex align-items-center justify-content-lg-between justify-content-center">
+          <div className="footer-bottom-wrapper d-flex align-items-center  justify-content-center">
             <p className="wow fadeInLeft" data-wow-delay=".3s">
-              © Copyright 2026 <Link href="/">Jeni Traders</Link>. All Rights
+              © Copyright 2026 <Link href="/">Juan Traders</Link>. All Rights
               Reserved.
             </p>
-            <div className="card-image wow fadeInRight" data-wow-delay=".5s">
-              <p className="wow fadeInLeft" data-wow-delay=".3s">
-                Designed by  <a href="https://yulanto.com" target="blank">Yulanto web creations</a>
-              </p>
-            </div>
+
           </div>
         </div>
       </div>
@@ -111,9 +119,9 @@ const FooterLogoContainer = () => (
       </div>
       <div className="footer-content">
         <p>
-          At <b> Jeni Traders, </b>we collect all types of metal scrap and provide reliable pickup, transparent pricing, and eco-friendly recycling services you can trust.
+          At <b> Juan Traders, </b>we collect all types of metal scrap and provide reliable pickup, transparent pricing, and eco-friendly recycling services you can trust.
         </p>
-       
+
       </div>
     </div>
   </div>
@@ -177,9 +185,9 @@ const LinksCol = ({
 const menu = [
   { link: "/", text: "Home" },
   { link: "about", text: "About Us" },
-  { link: "causes", text: "Our Services" },
-  { link: "events", text: "Our Works" },
-  { link: "team", text: "Contact Us" },
+  { link: "service", text: "Our Services" },
+  { link: "Work", text: "Our Works" },
+  { link: "contact", text: "Contact Us" },
   // { link: "news", text: "Latest News" },
 ];
 const legalLink = [

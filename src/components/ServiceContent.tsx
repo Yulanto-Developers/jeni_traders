@@ -20,7 +20,7 @@ const services: ServiceItem[] = [
         title: "Copper Cables &",
         titleHighlight: "Wires",
         description:
-            "Jeni Traders purchases copper cables and wires of all grades, including insulated, bare, and mixed copper. We serve residential, commercial, and industrial clients. Our team ensures careful handling during collection and transport. We use transparent weighing methods for complete customer confidence. Prices are clearly communicated before pickup with no hidden charges. Pickup schedules are flexible to suit your availability. We handle both small quantities and large bulk orders efficiently. Payments are made promptly once the scrap is collected. Copper materials are processed responsibly through approved recycling channels. Our services help reduce environmental impact while delivering value to customers.",
+            "Juan Traders purchases copper cables and wires of all grades, including insulated, bare, and mixed copper. We serve residential, commercial, and industrial clients. Our team ensures careful handling during collection and transport. We use transparent weighing methods for complete customer confidence. Prices are clearly communicated before pickup with no hidden charges. Pickup schedules are flexible to suit your availability. We handle both small quantities and large bulk orders efficiently. Payments are made promptly once the scrap is collected. Copper materials are processed responsibly through approved recycling channels. Our services help reduce environmental impact while delivering value to customers.",
     },
     {
         image: "/assets/img/service-img/Iron.jpg",
@@ -48,7 +48,7 @@ const ServiceContent = () => {
                         What <span>We Do</span>
                     </h2>
                     <p className="mt-3">
-                        Jeni Traders provides professional scrap collection and recycling
+                        Juan Traders provides professional scrap collection and recycling
                         services. We collect metal scrap from homes, offices, construction
                         sites, and industries with honest pricing, timely pickup, and
                         responsible recycling. Our experienced team ensures safe handling,

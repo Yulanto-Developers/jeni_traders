@@ -150,3 +150,7 @@ a {
 .logo-imgs{
     width: 50px;
 }
+
+.lowerCase{
+    text-transform: lowercase !important;
+}

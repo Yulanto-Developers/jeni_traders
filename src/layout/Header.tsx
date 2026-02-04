@@ -71,21 +71,21 @@ const Header3 = ({ open }: { open: () => void }) => {
   const [toggle, setToggle] = useState(false);
   return (
     <Fragment>
-    
+
       <header className="header-section-1">
         <div className="header-top-section fix">
           <div className="container-fluid">
             <div className="header-top-wrapper style-2">
               <ContactList
                 items={[
-                
+
                   {
                     icon: "far fa-greeting",
                     content: (
-                      <span className="tracking-wider text-white">Welcome to Jeni Traders - Best Scrap Buyers in Chennai</span>
+                      <span className="tracking-wider text-white">Welcome to Juan Traders - Best Scrap Buyers in Chennai</span>
                     ),
                   },
-                 
+
                 ]}
               />
               <div className="top-right">
@@ -160,16 +160,16 @@ const Nav = () => (
         <li className="has-dropdown">
           <Link href="/service">
             Our Services
-           
+
           </Link>
-         
+
         </li>
-      
+
         <li className="has-dropdown">
           <Link href="/Work">
             Our Works
           </Link>
-          
+
         </li>
         <li>
           <Link href="/contact">Contact Us</Link>
@@ -194,7 +194,7 @@ const MobileMenu = ({ open, close }: { open: boolean; close: () => void }) => (
           <div className="offcanvas__content">
             <div className="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
               <div className="offcanvas__logo">
-                <Logo logo="logo-1.png" className="logo-imgs"  />
+                <Logo logo="logo-1.png" className="logo-imgs" />
               </div>
               <div className="offcanvas__close">
                 <button onClick={close}>
@@ -216,12 +216,6 @@ const MobileMenu = ({ open, close }: { open: boolean; close: () => void }) => (
                     icon: "fal fa-map-marker-alt",
                     link: "#",
                     text: "Pl No.08, Door No.17, Thiruvalluvar Street, Ullagaram, Chennai - 600091.",
-                  },
-                 
-                  {
-                    icon: "fal fa-clock",
-                    link: "#",
-                    text: "Mod-friday, 09am -05pm",
                   },
                   {
                     icon: "far fa-phone",
@@ -306,14 +300,14 @@ const MobileNav = () => {
             <li>
               <Link href="/service">
                 Services US
-               
+
               </Link>
             </li>
             <li className="has-dropdown">
               <Link href="/Work">
                 Our Works
               </Link>
-            
+
             </li>
 
             <li className="mean-last">

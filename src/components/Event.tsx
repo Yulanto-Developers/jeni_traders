@@ -238,7 +238,7 @@ export const Event3 = () => {
         category: "Scrap Collection",
         title: "Scrap Collection Service in North Chennai",
         time: "09:00 AM - 05:00 PM",
-        author: "Jeni Traders",
+        author: "Juan Traders",
       },
       {
         bgImage: "/assets/img/action/scrap-2.jpg",
@@ -248,7 +248,7 @@ export const Event3 = () => {
         category: "Metal Recycling",
         title: "Industrial Scrap Pickup in Ambattur",
         time: "10:00 AM - 06:00 PM",
-        author: "Jeni Traders",
+        author: "Juan Traders",
       },
       {
         bgImage: "/assets/img/action/scrap-3.jpg",
@@ -258,7 +258,7 @@ export const Event3 = () => {
         category: "Scrap Collection",
         title: "Doorstep Scrap Collection in Velachery",
         time: "08:30 AM - 04:30 PM",
-        author: "Jeni Traders",
+        author: "Juan Traders",
       },
       {
         bgImage: "/assets/img/action/scrap-4.jpg",
@@ -268,7 +268,7 @@ export const Event3 = () => {
         category: "Scrap Pickup",
         title: "Commercial Scrap Collection in T Nagar",
         time: "09:30 AM - 05:30 PM",
-        author: "Jeni Traders",
+        author: "Juan Traders",
       },
       {
         bgImage: "/assets/img/action/scrap-5.jpg",
@@ -278,7 +278,7 @@ export const Event3 = () => {
         category: "Metal Scrap",
         title: "Heavy Metal Scrap Collection in Guindy",
         time: "10:00 AM - 07:00 PM",
-        author: "Jeni Traders",
+        author: "Juan Traders",
       },
       {
         bgImage: "/assets/img/action/scrap-6.jpg",
@@ -287,7 +287,7 @@ export const Event3 = () => {
         category: "Recycling Service",
         title: "Eco-Friendly Scrap Recycling Across Chennai",
         time: "09:00 AM - 06:00 PM",
-        author: "Jeni Traders",
+        author: "Juan Traders",
       },
       {
         bgImage: "/assets/img/action/scrap-7.jpg",
@@ -297,7 +297,7 @@ export const Event3 = () => {
         category: "Scrap Collection",
         title: "Residential Scrap Pickup in Anna Nagar",
         time: "08:00 AM - 02:00 PM",
-        author: "Jeni Traders",
+        author: "Juan Traders",
       },
       {
         bgImage: "/assets/img/action/scrap-8.jpg",
@@ -307,7 +307,7 @@ export const Event3 = () => {
         category: "Scrap Service",
         title: "All Metal Scrap Collection Anywhere in Chennai",
         time: "09:00 AM - 05:00 PM",
-        author: "Jeni Traders",
+        author: "Juan Traders",
       },
     ];
 

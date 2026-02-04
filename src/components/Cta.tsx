@@ -25,7 +25,7 @@ export const Cta3 = () => {
                   Why Choose Us
                 </span>
               </div>
-              <p className="text-white text-center">Jeni Traders is a trusted scrap collection and recycling service committed to fair pricing, timely pickup, and responsible handling of materials. We serve homes, businesses, and industries with transparent weighing, quick payment, and eco-friendly recycling practices you can rely on.</p>
+              <p className="text-white text-center">Juan Traders is a trusted scrap collection and recycling service committed to fair pricing, timely pickup, and responsible handling of materials. We serve homes, businesses, and industries with transparent weighing, quick payment, and eco-friendly recycling practices you can rely on.</p>
             </div>
           </div>
         </div>
