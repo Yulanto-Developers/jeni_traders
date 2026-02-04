@@ -4,7 +4,7 @@ export async function POST(req: Request) {
   try {
     const { fname, lname, phone, email, message } = await req.json();
 
-    /*  VALIDATION  */
+
     if (!fname || !lname || !phone || !email || !message) {
       return NextResponse.json(
         { status: 400, message: "All fields are required" },
@@ -33,9 +33,9 @@ export async function POST(req: Request) {
       body: JSON.stringify({
         sender: {
           name: "JUAN TRADERS",
-          email: "thunivuvarisu1234@gmail.com",
+          email: "juantraders24@gmail.com",
         },
-        to: [{ email: "thunivuvarisu1234@gmail.com" }],
+        to: [{ email: "juantraders24@gmail.com" }],
         replyTo: {
           email,
           name: lname,
@@ -125,7 +125,7 @@ export async function POST(req: Request) {
       body: JSON.stringify({
         sender: {
           name: "JUAN TRADERS",
-          email: "thunivuvarisu1234@gmail.com",
+          email: "juantraders24@gmail.com",
         },
         to: [{ email, name: fname }],
         subject: "Thank you for contacting JUAN TRADERS",
