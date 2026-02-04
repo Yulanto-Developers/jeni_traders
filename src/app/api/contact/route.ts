@@ -22,7 +22,7 @@ export async function POST(req: Request) {
       );
     }
 
-    /*  ADMIN EMAIL  */
+
     const adminRes = await fetch("https://api.brevo.com/v3/smtp/email", {
       method: "POST",
       headers: {
@@ -85,7 +85,6 @@ export async function POST(req: Request) {
 
       </table>
 
-      <!-- Warning -->
       <p style="margin-top:20px; color:red; font-weight:bold;">
         ⚠ Do not reply to this mail
       </p>
@@ -186,7 +185,7 @@ export async function POST(req: Request) {
       throw new Error(clientData?.message || "Client email failed");
     }
 
-    /*  SUCCESS  */
+  
     return NextResponse.json({
       status: 200,
       message: "Enquiry submitted successfully",

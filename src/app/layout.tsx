@@ -35,7 +35,7 @@ const chelsea_market = Chelsea_Market({
 export const metadata: Metadata = {
   title: "Juan Traders",
   description:
-    "Chenni Best Scrap Buyers",
+    "Chennai Best Scrap Buyers",
   icons: {
     icon: "/assets/img/logo/Logo-6.png",
   },
