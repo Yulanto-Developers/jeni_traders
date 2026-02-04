@@ -32,7 +32,8 @@ const CausesPage = () => {
 
     try {
       const api = await fetch(
-        "https://demo3.yulanto.in/jeni-traders/backend/contact.php",
+        // "https://demo3.yulanto.in/jeni-traders/backend/contact.php",
+        "/api/contact/",
         {
           method: "POST",
           headers: {
@@ -43,7 +44,7 @@ const CausesPage = () => {
       );
 
       const response = await api.json();
-
+      console.log(response);
       if (response?.status === 200) {
         Swal.fire({
           icon: "success",
@@ -52,7 +53,7 @@ const CausesPage = () => {
           confirmButtonColor: "#28a745",
         });
 
-       
+
         setForm({
           fname: "",
           lname: "",
