@@ -17,7 +17,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import ClientPreloader from "@/components/ClientPreloader";
 import { FloatingWhatsApp, FloatingCall } from "@/components/FloatingWhatsApp";
 import Script from "next/script";
+import { Suspense } from "react";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
+
 
 // const Preloader = dynamic(() => import("@/layout/Preloader"), {
 //   ssr: false,
@@ -96,8 +98,9 @@ export default function RootLayout({
         </noscript>
 
         {children}
-        <GoogleAnalytics />
-
+        <Suspense fallback={null}>
+          <GoogleAnalytics />
+        </Suspense>
         <ClientPreloader />
         <FloatingWhatsApp />
         <FloatingCall />
