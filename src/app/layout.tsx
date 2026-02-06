@@ -18,6 +18,7 @@ import ClientPreloader from "@/components/ClientPreloader";
 import { FloatingWhatsApp, FloatingCall } from "@/components/FloatingWhatsApp";
 import Script from "next/script";
 import { Suspense } from "react";
+import LocalBusinessSchema from "@/components/LocalBusinessSchema";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 
 
@@ -85,7 +86,7 @@ export default function RootLayout({
   `}
       </Script>
 
-
+      <LocalBusinessSchema />
       <body className={`${chelsea_market.variable} ${dmSans.variable}`}>
 
         <noscript>
