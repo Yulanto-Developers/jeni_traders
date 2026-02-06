@@ -97,7 +97,7 @@ export default function RootLayout({
           />
         </noscript>
 
-        {children}
+        {/* {children} */}
         <Suspense fallback={null}>
           <GoogleAnalytics />
         </Suspense>
