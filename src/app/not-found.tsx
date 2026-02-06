@@ -1,3 +1,5 @@
+"use client";
+
 import PageBanner from "@/components/PageBanner";
 import DanboxLayout from "@/layout/DanboxLayout";
 import Link from "next/link";
