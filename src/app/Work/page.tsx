@@ -11,7 +11,7 @@ export const generateMetadata = (): Metadata =>
   generateSeo({
     title: "Our Scrap Work Chennai | Scrap Buyers Project Gallery",
     description: "Explore our scrap work in Chennai including metal scrap electronic scrap industrial scrap projects completed successfully",
-    path: "/",
+    path: "/Work",
     images: '/assets/img/waste-images/metal-waste/img-1.jpg',
   });
 

@@ -13,7 +13,7 @@ export const generateMetadata = (): Metadata =>
   generateSeo({
     title: "Scrap Collection Services Chennai | Scrap Buyers Near Me",
     description: "Professional scrap collection near me in Chennai for metal scrap electronic scrap battery scrap with instant pickup service",
-    path: "/",
+    path: "/service",
     images: '/assets/img/waste-images/metal-waste/img-1.jpg',
   });
 

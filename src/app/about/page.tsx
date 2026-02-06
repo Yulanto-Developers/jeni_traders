@@ -12,7 +12,7 @@ export const generateMetadata = (): Metadata =>
   generateSeo({
     title: "About Scrap Buyers Chennai | Trusted Scrap Dealers",
     description: "Know about Scrap Buyers Chennai trusted scrap dealers buying metal scrap electronic scrap and old scrap with fair pricing",
-    path: "/",
+    path: "/about",
     images: '/assets/img/waste-images/metal-waste/img-1.jpg',
   });
 
