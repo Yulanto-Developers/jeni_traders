@@ -99,6 +99,19 @@ export default function RootLayout({
             gtag('config', 'AW-799614780');
           `}
       </Script>
+       <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-799614780"
+          strategy="afterInteractive"
+        />
+
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-799614780');
+          `}
+        </Script>
 
       <LocalBusinessSchema />
       <body className={`${chelsea_market.variable} ${dmSans.variable}`}>
