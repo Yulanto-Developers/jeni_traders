@@ -119,7 +119,7 @@ const Header3 = ({ open }: { open: () => void }) => {
                   </a>
                   <div className="header-button">
                     <Link href="/contact" className="theme-btn">
-                      Donate Now
+                      Contact Us
                       <i className="ps-2 far fa-heart" />
                     </Link>
                   </div>
@@ -202,11 +202,7 @@ const MobileMenu = ({ open, close }: { open: boolean; close: () => void }) => (
                 </button>
               </div>
             </div>
-            <p className="text d-none d-xl-block">
-              Nullam dignissim, ante scelerisque the is euismod fermentum odio
-              sem semper the is erat, a feugiat leo urna eget eros. Duis Aenean
-              a imperdiet risus.
-            </p>
+           
             <MobileNav />
             <div className="offcanvas__contact">
               <h4>Contact Info</h4>
