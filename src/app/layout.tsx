@@ -85,6 +85,20 @@ export default function RootLayout({
     })(window,document,'script','dataLayer','GTM-WV4PS5GB');
   `}
       </Script>
+      {/* Google Ads / gtag */}
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=AW-799614780"
+        strategy="afterInteractive"
+      />
+
+      <Script id="google-ads-gtag" strategy="afterInteractive">
+        {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-799614780');
+          `}
+      </Script>
 
       <LocalBusinessSchema />
       <body className={`${chelsea_market.variable} ${dmSans.variable}`}>
