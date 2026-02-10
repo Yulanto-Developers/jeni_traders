@@ -112,6 +112,11 @@ export default function RootLayout({
             gtag('config', 'AW-799614780');
           `}
         </Script>
+         {/* Google Ads base tag (if not already added) */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-799614780"
+          strategy="afterInteractive"
+        />
 
       <LocalBusinessSchema />
       <body className={`${chelsea_market.variable} ${dmSans.variable}`}>
