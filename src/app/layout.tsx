@@ -13,7 +13,7 @@ import type { Metadata } from "next";
 import { Chelsea_Market, DM_Sans } from "next/font/google";
 import "./globals.css";
 // import Preloader from "@/layout/Preloader";
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 import ClientPreloader from "@/components/ClientPreloader";
 import { FloatingWhatsApp, FloatingCall } from "@/components/FloatingWhatsApp";
 import Script from "next/script";
