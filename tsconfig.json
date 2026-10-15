@@ -22,29 +22,28 @@
         "name": "next"
       }
     ],
-    "baseUrl": ".",
-    "ignoreDeprecations": "6.0",
+    // "baseUrl": ".",
     "paths": {
       "@/*": [
-        "src/*"
+        "./src/*"
       ],
       "@components/*": [
-        "src/components/*"
+        "./src/components/*"
       ],
       "@layout/*": [
-        "src/layout/*"
+        "./src/layout/*"
       ],
       "@utility/*": [
-        "src/utility/*"
+        "./src/utility/*"
       ],
       "@css/*": [
-        "public/assets/css/*"
+        "./public/assets/css/*"
       ],
       "@img/*": [
-        "public/assets/img/*"
+        "./public/assets/img/*"
       ],
       "@fonts/*": [
-        "public/assets/fonts/*"
+        "./public/assets/fonts/*"
       ]
     }
   },
