@@ -1,4 +1,3 @@
-
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
@@ -8,16 +7,25 @@ const nextConfig: NextConfig = {
   },
 
   async headers() {
+    const imageCacheHeaders = [
+      {
+        key: "Cache-Control",
+        value: "public, max-age=2592000, stale-while-revalidate=604800",
+      },
+    ];
+
     return [
       {
         source: "/assets/:path*",
-        headers: [
-          {
-            key: "Cache-Control",
-            value:
-              "public, max-age=604800, stale-while-revalidate=86400",
-          },
-        ],
+        headers: imageCacheHeaders,
+      },
+      {
+        source: "/service-img/:path*",
+        headers: imageCacheHeaders,
+      },
+      {
+        source: "/action/:path*",
+        headers: imageCacheHeaders,
       },
     ];
   },
